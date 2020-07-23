@@ -1,0 +1,525 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Nanum Pen Script", cursive;
+}
+
+.Hero-image {
+  width: 100%;
+  height: 600px;
+  background: url("https://hdwallpaperim.com/wp-content/uploads/2017/08/31/155431-Avatar_The_Last_Airbender.jpg");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: cover;
+}
+
+nav {
+  width: 100%;
+  height: 70px;
+  background-color: rgba(0, 0, 0, 0.24);
+  line-height: 70px;
+}
+
+nav ul {
+  float: right;
+  margin-right: 30px;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+nav .right ul {
+  float: left;
+  margin-left: 30px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 20px;
+  margin: 10px;
+}
+
+a:hover {
+  color: white;
+}
+
+.btn {
+  color: white;
+}
+
+.btn:hover {
+  color: white;
+}
+
+.btn-1 {
+  border: 0 solid;
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
+  outline: 1px solid;
+  outline-color: rgba(255, 255, 255, 0.5);
+  outline-offset: 0px;
+  text-shadow: none;
+  transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.btn-1:hover {
+  border: 1px solid;
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.5),
+    0 0 20px rgba(255, 255, 255, 0.2);
+  outline-color: rgba(255, 255, 255, 0);
+  outline-offset: 15px;
+  text-shadow: 1px 1px 2px #427388;
+}
+
+.Header {
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  text-align: center;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.overview {
+  text-align: center;
+  width: 100%;
+  height: 230px;
+  padding: 40px;
+  color: #121d25;
+  text-shadow: 2px 2px 4px #00000027;
+  background: rgb(255, 255, 255);
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(98, 102, 104, 1) 100%
+  );
+}
+
+.overview h3 {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.overview h3:before,
+h3:after {
+  content: "";
+  border-top: 2px solid;
+  margin: 0 20px 0 0;
+  flex: 1 0 20px;
+}
+
+.overview h3:after {
+  margin: 0 0 0 20px;
+}
+
+.Synopsis {
+  width: 100%;
+  height: 400px;
+}
+
+.back {
+  width: 100%;
+  height: 400px;
+  color: rgb(255, 255, 255);
+  background: rgb(132, 136, 138);
+  background: linear-gradient(
+    90deg,
+    rgba(132, 136, 138, 1) 10%,
+    rgba(101, 105, 107, 1) 41%,
+    rgba(99, 103, 105, 1) 45%,
+    rgba(98, 102, 104, 1) 70%,
+    rgba(81, 83, 84, 1) 100%
+  );
+}
+
+.back p {
+  width: 1100px;
+  margin-left: 30px;
+  text-align: justify;
+}
+
+.back h3 {
+  margin-left: 30px;
+  padding-top: 30px;
+}
+
+.front {
+  width: 500px;
+  height: 400px;
+  position: relative;
+  top: -100%;
+  left: 62%;
+  background-color: #121d25;
+  box-shadow: 2px 2px 20px #00000041;
+}
+
+.center {
+  position: relative;
+  top: 12%;
+  left: 5%;
+  display: block;
+  box-shadow: inset 2px 2px;
+}
+
+.main-char {
+  text-align: center;
+  width: 100%;
+  height: 430px;
+  padding: 40px;
+  color: #121d25;
+  text-shadow: 2px 2px 4px #00000027;
+  background: rgb(255, 255, 255);
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(98, 102, 104, 1) 100%
+  );
+}
+
+.main-char h3 {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.main-char h3:before,
+h3:after {
+  content: "";
+  border-top: 2px solid;
+  margin: 0 20px 0 0;
+  flex: 1 0 20px;
+}
+
+.main-char h3:after {
+  margin: 0 0 0 20px;
+}
+
+.main-char img {
+  height: auto;
+  filter: grayscale(40%);
+}
+
+figure {
+  display: inline-block;
+  margin: 40px;
+}
+
+.Toph img {
+  width: 160px;
+  height: 190px;
+}
+
+.Sokka img {
+  width: 160px;
+  height: 180px;
+}
+
+.Latest {
+  width: 100%;
+  height: 450px;
+  color: rgb(255, 255, 255);
+  background: rgb(132, 136, 138);
+  background: linear-gradient(
+    90deg,
+    rgba(132, 136, 138, 1) 10%,
+    rgba(101, 105, 107, 1) 41%,
+    rgba(99, 103, 105, 1) 45%,
+    rgba(98, 102, 104, 1) 70%,
+    rgba(81, 83, 84, 1) 100%
+  );
+}
+
+.Latest .sidebar {
+  width: 300px;
+  height: 40px;
+  background-color: #e6a9b6;
+}
+
+.Latest .text {
+  width: 1100px;
+}
+.Latest p {
+  width: 1000px;
+  margin-left: 30px;
+  text-align: justify;
+}
+
+.Latest h3 {
+  margin-left: 30px;
+  padding-top: 30px;
+}
+
+.Latest img {
+  width: 600px;
+}
+
+.Influence {
+  width: 100%;
+  height: 470px;
+}
+
+.Influence .back {
+  width: 100%;
+  height: 470px;
+  color: rgb(255, 255, 255);
+  background: rgb(132, 136, 138);
+  background: linear-gradient(
+    90deg,
+    rgba(132, 136, 138, 1) 10%,
+    rgba(101, 105, 107, 1) 41%,
+    rgba(99, 103, 105, 1) 45%,
+    rgba(98, 102, 104, 1) 70%,
+    rgba(81, 83, 84, 1) 100%
+  );
+}
+
+.Influence .back p {
+  width: 1100px;
+  margin-left: 30px;
+  text-align: justify;
+}
+
+.Influence .back h3 {
+  margin-left: 30px;
+  padding-top: 30px;
+}
+
+.Influence .front {
+  width: 600px;
+  height: 400px;
+  position: relative;
+  top: -100%;
+  left: 65%;
+  background-color: rgba(18, 29, 37, 0);
+  box-shadow: 2px 2px 20px #00000000;
+}
+
+.Influence img {
+  width: 600px;
+  position: relative;
+  top: 70px;
+  box-shadow: 10px 10px 5px rgb(0, 0, 0);
+  filter: grayscale(70%);
+}
+
+.Themes {
+  text-align: center;
+  width: 100%;
+  height: 570px;
+  padding: 40px;
+  color: #121d25;
+  text-shadow: 2px 2px 4px #00000027;
+  background: rgb(255, 255, 255);
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(98, 102, 104, 1) 100%
+  );
+}
+
+.Themes h3 {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.Themes h3:before,
+h3:after {
+  content: "";
+  border-top: 2px solid;
+  margin: 0 20px 0 0;
+  flex: 1 0 20px;
+}
+
+.Themes h3:after {
+  margin: 0 0 0 20px;
+}
+
+.Themes img {
+  width: 70%;
+}
+
+.Themes a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+.Footer {
+  width: 100%;
+  height: 100px;
+  background: url("https://hdwallpaperim.com/wp-content/uploads/2017/08/31/155431-Avatar_The_Last_Airbender.jpg");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: cover;
+  background: fixed;
+}
+
+.foreground {
+  width: 100%;
+  height: 100px;
+  margin-top: 100px;
+}
+
+.foreground h3 {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.foreground h3:before,
+h3:after {
+  content: "";
+  border-top: 2px solid;
+  margin: 0 20px 0 0;
+  flex: 1 0 20px;
+}
+
+.foreground h3:after {
+  margin: 0 0 0 20px;
+}
+
+.foreground img {
+  width: 03%;
+  filter: invert(100%);
+}
+
+.content {
+  width: 64%;
+  height: 2650px;
+  background-color: rgba(0, 0, 0, 0.274);
+  margin: auto;
+  margin-top: 60px;
+  color: white;
+}
+
+.charbox {
+  width: 27%;
+  height: 1140px;
+  background-color: rgba(255, 255, 255, 0.212);
+  float: right;
+  margin-top: 30px;
+  margin-right: 34px;
+}
+
+.charbox img {
+  width: 100%;
+  position: relative;
+  border: 2px solid rgb(255, 255, 255);
+}
+
+.charbox h3 {
+  border: 5px solid white;
+  background-color: white;
+  color: rgb(37, 37, 37);
+  text-align: center;
+}
+
+.head-text {
+  width: 60%;
+  float: left;
+
+  margin-top: 50px;
+  margin-left: 38px;
+}
+
+.head-text hr {
+  margin-top: 90px;
+  margin-bottom: 40px;
+}
+
+.mid-text {
+  position: absolute;
+  top: 120%;
+  margin-top: 150px;
+  margin-left: 38px;
+  width: 59%;
+}
+
+.mid-text hr {
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+#nation {
+  border-top: 1px solid rgb(255, 255, 255);
+  border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+#ethnicity {
+  border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+#age {
+  border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+#birth {
+  border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.charbox h4 {
+  border: 2px solid white;
+  background-color: white;
+  color: rgb(37, 37, 37);
+  text-align: center;
+}
+
+.element {
+  width: 1170px;
+  height: 700px;
+  margin-top: 80px;
+  background-color: rgba(0, 0, 0, 0.301);
+}
+
+.element h1 {
+  text-align: left;
+  padding: 30px;
+  color: white;
+}
+
+.element p {
+  text-align: left;
+  padding: 30px;
+  color: white;
+}
+
+.element img {
+  width: 85%;
+  position: relative;
+  left: 40px;
+  top: 35px;
+  border: 1px solid rgb(255, 255, 255);
+}
+
+.element #btn {
+  text-align: left;
+  margin-left: 30px;
+  position: relative;
+  bottom: 20px;
+}
+
+.element #water {
+  text-align: center;
+  color:black;
+  width: 85%;
+  position: relative;
+  left: 40px;
+  padding: 0px;
+  background-color: white;
+}
